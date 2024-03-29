@@ -134,6 +134,10 @@ header .menu_side .menu_song li{
     transition: .3s linear; 
 }
 
+header .menu_side h6{
+    display: none;
+}
+
 header .menu_side .menu_song li:hover{
     background: rgb(105,105,105,.1);
 }
@@ -159,6 +163,7 @@ header .menu_side .menu_song li h5{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
 
 header .menu_side .menu_song li h5 .subtitle{
     font-size: 9px;
@@ -496,6 +501,55 @@ header .song_side nav .search::before{
     z-index: -1;
 }
 
+header .song_side nav .search .search_results{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+header .song_side nav .search .search_results::-webkit-scrollbar{
+    display: none;
+}
+
+header .song_side nav .search .search_results .card{
+    width: 100%;
+    min-height: 45px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    background: rgb(184,184,184,.1);
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: none;
+}
+
+header .song_side nav .search .search_results .card img{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+header .song_side nav .search .search_results .card .content{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid white; */
+    padding: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+
+header .song_side nav .search .search_results .card .content .subtitle{
+    font-size: 11px;
+    color: #a4a8b4;
+    font-weight: 500;
+}
+
+
 header .song_side nav .search .bi{
     font-size: 13px;
     padding: 3px 0px 0px 10px;
@@ -691,4 +745,5 @@ header .song_side .popular_artist .item li img{
     height: 100%;
     border-radius: 50%;
 }
+
 
