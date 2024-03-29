@@ -96,6 +96,48 @@ const songs = [
         songName: `Main Hoon Saath Tere<br>
         <div class="subtitle">Arijit Singh</div>`,
         poster: "Image/16.jpg"
+    },
+    {
+        id: 17,
+        songName: `Ve Haaniyan<br>
+        <div class="subtitle">Danny</div>`,
+        poster: "Image/17.jpg"
+    },
+    {
+        id: 18,
+        songName: `Dil Se Dil Tak<br>
+        <div class="subtitle">Mithoon</div>`,
+        poster: "Image/18.jpg"
+    },
+    {
+        id: 19,
+        songName: `Halka Halka<br>
+        <div class="subtitle">Sunidhi Chauhan</div>`,
+        poster: "Image/19.jpg"
+    },
+    {
+        id: 20,
+        songName: `Gazab Ka Hai Din<br>
+        <div class="subtitle">Jubin Nautiyal</div>`,
+        poster: "Image/20.jpg"
+    },
+    {
+        id: 21,
+        songName: `Mere Sohneya<br>
+        <div class="subtitle">Sachet tandon</div>`,
+        poster: "Image/21.jpg"
+    },
+    {
+        id: 22,
+        songName: `Labon pe Naam<br>
+        <div class="subtitle">Armaan Malik</div>`,
+        poster: "Image/22.jpg"
+    },
+    {
+        id: 23,
+        songName: `Jaan Hai Meri<br>
+        <div class="subtitle">Armaan Malik</div>`,
+        poster: "Image/23.jpg"
     }
 ]
 
